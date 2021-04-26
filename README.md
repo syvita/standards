@@ -34,7 +34,7 @@ A release's name is the abbreviation of the title, a forward-slash and the relea
 
 Example:
 
-`AYLIP/v1-beta`
+`AYLIP/v2-beta`
 
 ## Implementing standards
 
