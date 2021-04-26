@@ -1,6 +1,6 @@
 # Standards
 
-This is the org-wide repository that contains the labs3 standards. These are standards mainly regarding code style for organisation projects.
+This is the org-wide repository that contains the labs3 standards. These are standards mainly regarding code style for organisation projects. They are not enforced, only recommendended.
 
 ## Naming
 
@@ -13,6 +13,9 @@ Standards are named in the format `L3S-XX` where `XX` is the standard identifier
 ### Tags
 
 If the release is a pre-release (an alpha or beta), the tag will be the next available version number with the suffix of `alpha` or `beta`.
+
+A standard is in `alpha` until it is finalised and `beta` until it's implemented in an L3 project.
+
 After the pre-release is implemented by a project, the pre-release becomes a recognised release without the suffix.
 
 Example:
