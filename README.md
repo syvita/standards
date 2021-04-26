@@ -22,7 +22,7 @@ Previous release was `v4`...
 
 ### Title
 
-The title of a release is usually a reference from one of Neal Stephenson's writings. This could be a city, a book title, a character etc. It's free for the author to choose. Just don't be rude, or it won't be implemented.
+The title of a release is usually a reference from one of Neal Stephenson's writings. This could be a city, a book title, a character etc. It's free for the author to choose. Just don't be rude, or it won't be implemented. They should be unique org-wide.
 
 Example:
 
@@ -34,7 +34,7 @@ A release's name is the abbreviation of the title, a forward-slash and the relea
 
 Example:
 
-`AYLIP/v2-beta`
+`EOC/v1`
 
 ## Implementing standards
 
@@ -42,7 +42,7 @@ When implementing deployed standards from this repo, you should state implementa
 
 If you're using a *release*, where you comply with every standard in said release, you should say something like this...
 
-> This project complies with [AYLIP/v1]().
+> This project complies with [AYLIP/v2-beta]().
 
 - Make it clear
 - The release name should be the abbreviation of the title, a forward-slash and the release tag.
