@@ -7,6 +7,7 @@ This is the org-wide repository that contains the labs3 standards. These are sta
 * L3S-01.md - Clarity coding standard
 * L3S-02.md - Architecture model standard
 * L3S-03.md - Unit testing standard
+* L3S-04.md - Markdown standard
 
 ## Naming
 
