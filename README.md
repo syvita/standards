@@ -43,7 +43,7 @@ A release's name is the abbreviation of the title, a forward-slash and the relea
 
 Example:
 
-`Syv-02/v1`
+`Syv-02/v1` (Standard Syv-02 version 1)
 
 ## Implementing standards
 
@@ -51,7 +51,7 @@ When implementing deployed standards from this repo, you should state implementa
 
 If you're using a *release*, where you comply with every standard in said release, you should say something like this...
 
-> This project complies with [AYLIP/v2](https://github.com/labs3/standards/releases/tag/v2).
+> This project complies with [Syv-03/v2](https://github.com/labs3/standards/releases/tag/v2).
 
 - Make it clear
 - The release name should be the abbreviation of the title, a forward-slash and the release tag.
