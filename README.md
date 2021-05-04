@@ -12,7 +12,7 @@ This is the org-wide repository that contains the labs3 standards. These are sta
 
 ### Standard naming
 
-Standards are named in the format `L3S-XX` where `XX` is the standard identifier. This identifier changes incrementally.
+Standards are named in the format `Syv-XX` where `XX` is the standard identifier. This identifier changes incrementally.
 
 ## Release naming
 
@@ -20,7 +20,7 @@ Standards are named in the format `L3S-XX` where `XX` is the standard identifier
 
 If the release is a pre-release (an alpha or beta), the tag will be the next available version number with the suffix of `alpha` or `beta`.
 
-A standard is in `alpha` until it is finalised and `beta` until it's implemented in an L3 project.
+A standard is in `alpha` until it is finalised and `beta` until it's implemented in an Syvita project.
 
 After the pre-release is implemented by a project, the pre-release becomes a recognised release without the suffix.
 
@@ -43,7 +43,7 @@ A release's name is the abbreviation of the title, a forward-slash and the relea
 
 Example:
 
-`EOC/v1`
+`Syv-02/v1`
 
 ## Implementing standards
 
@@ -60,4 +60,4 @@ If you're using a *release*, where you comply with every standard in said releas
 
 If you're using *individual standards*, you should list them.
 
-> This project complies with L3S-01, 02 & 03.
+> This project complies with Syv-01, 02 & 03.
