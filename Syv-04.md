@@ -1,4 +1,4 @@
-# L3S-04 - Markdown
+# Syv-04 - Markdown
 
 This document contains a description of all rules, what they are checking for,
 as well as examples of documents that break the rule and corrected
@@ -7,7 +7,7 @@ deprecated, but still provided for backward-compatibility.
 
 ## Use/compliance
 
-This standard can be used in L3 projects by using [this extension](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) for VSCode. It should help implementation significantly.
+This standard can be used in Syvita projects by using [this extension](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) for VSCode. It should help implementation significantly.
 
 This is taken from [markdownlint's repo](https://github.com/DavidAnson/markdownlint/blob/v0.23.1/doc/Rules.md#md025).
 

@@ -1,10 +1,10 @@
-# L3S-02 - C4model
+# Syv-02 - C4model
 
 ## Abstract
 
 ### Proposed use
 
-labs³ will use the C4model to describe architectures for projects.
+Syvita will use the C4model to describe architectures for projects.
 
 ### Introduction
 
@@ -36,7 +36,7 @@ Zoom in again, and this time you model every element from 3rd level using standa
 
 ### Actual use (suggestion)
 
-A suggestion for L3 is to use draw.io to draw the diagrams and to share the working file (.drawio) in the docs folder of a project. Whenever a new version is uploaded an export of the diagrams as an image(s) (.png) should be included in the docs folder for easy viewing by all project members.
+A suggestion for Syvita is to use draw.io to draw the diagrams and to share the working file (.drawio) in the docs folder of a project. Whenever a new version is uploaded an export of the diagrams as an image(s) (.png) should be included in the docs folder for easy viewing by all project members.
 
 Note: In the future we could also consider drawing the diagrams in Miro, for more streamlined collaboration.
 
@@ -48,19 +48,19 @@ C4model is a methodology to express software architectures in block diagram shap
 
 The zoom-out perspective of the whole system in the biggest scale. Detail isn't important here as this is your zoomed out view showing a big picture of the system landscape. The focus should be on people (actors, roles, personas, etc) and software systems rather than technologies, protocols and other low-level details. It's the sort of diagram that you could show to non-technical people.
 
-![L3S-02/c4model-1st%20level.png](./L3S-02/c4model-1st%20level.png)
+![Syv-02/c4model-1st%20level.png](./Syv-02/c4model-1st%20level.png)
 
 So in short, each shape demonstrates the below meanings:
-![L3S-02/c4model-1st%20level-2.png](./L3S-02/c4model-1st%20level-2.png)
+![Syv-02/c4model-1st%20level-2.png](./Syv-02/c4model-1st%20level-2.png)
 
 **Example:** This is an example System Context diagram for a fictional Internet Banking System. It shows the people who use it, and the other software systems that the Internet Banking System has a relationship with. Personal Customers of the bank use the Internet Banking System to view information about their bank accounts and to make payments. The Internet Banking System itself uses the bank's existing Mainframe Banking System to do this, and uses the bank's existing E-mail System to send e-mails to customers.
-![L3S-02/c4model-1st%20level-example.png](./L3S-02/c4model-1st%20level-example.png)
+![Syv-02/c4model-1st%20level-example.png](./Syv-02/c4model-1st%20level-example.png)
 
 ### Second level of visualization
 
 Once you zoom in a bit, you are in the second level. This level of visualization is shown inside a dash-line boundary with **container** blocks. Once you understand how your system fits in to the overall IT environment, a really useful next step is to zoom in to the system boundary with a Container diagram.
 
-![L3S-02/c4model-2nd%20level.png](./L3S-02/c4model-2nd%20level.png)
+![Syv-02/c4model-2nd%20level.png](./Syv-02/c4model-2nd%20level.png)
 
 **Example:**
 This is an example Container diagram for a fictional Internet Banking System. It shows that the Internet Banking System (the dashed box) is made up of five containers: a server-side Web Application, a Single-Page Application, a Mobile App, a server-side API Application, and a Database.
@@ -73,14 +73,14 @@ Both the Single-Page Application and Mobile App use a JSON/HTTPS API, which is p
 
 The API Application also communicates with the existing Mainframe Banking System, using a proprietary XML/HTTPS interface, to get information about bank accounts or make transactions. The API Application also uses the existing E-mail System if it needs to send e-mails to customers.
 
-![L3S-02/c4model-2nd%20level-example.png](./L3S-02/c4model-2nd%20level-example.png)
+![Syv-02/c4model-2nd%20level-example.png](./Syv-02/c4model-2nd%20level-example.png)
 
 ### Third level of visualisation
 
 You can zoom in more into level-2 containers/blocks to show how a container is made up of several "components"...
 
 Symbol diagrams below listed:
-![L3S-02/c4model-3rd%20level.png](./L3S-02/c4model-3rd%20level.png)
+![Syv-02/c4model-3rd%20level.png](./Syv-02/c4model-3rd%20level.png)
 
 **Example:**
 
@@ -88,14 +88,14 @@ This is an example Component diagram for a fictional Internet Banking System, sh
 
 Here, there are three Spring MVC Rest Controllers providing access points for the JSON/HTTPS API, with each controller subsequently using other components to access data from the Database and Mainframe Banking System, or send e-mails.
 
-![L3S-02/c4model-3rd%20level-example.png](./L3S-02/c4model-3rd%20level-example.png)
+![Syv-02/c4model-3rd%20level-example.png](./Syv-02/c4model-3rd%20level-example.png)
 
 ### Fourth level of visualization
 
 To zoom in to see the codes. This is an optional level of detail and is often available on-demand from tooling such as IDEs.
 
 This is an example (and partial) UML class diagram for a fictional Internet Banking System, showing the code elements (interfaces and classes) that make up the MainframeBankingSystemFacade component. It shows that the component is made up of some classes, with the implementation details directly reflecting the code.
-![L3S-02/c4model-4th%20level-example.png](./L3S-02/c4model-4th%20level-example.png)
+![Syv-02/c4model-4th%20level-example.png](./Syv-02/c4model-4th%20level-example.png)
 
 ## Notations
 
@@ -121,7 +121,7 @@ Be consistent with notation and element positioning across diagrams: keeping peo
 
 ### Acronyms
 
-Be careful to use acronyms/abbreviations. It will be much easier for new people to onboard if we do not use any abbreviations but that may be to much to ask, lets at least try to avoid making labs³/project specific abbreviations.
+Be careful to use acronyms/abbreviations. It will be much easier for new people to onboard if we do not use any abbreviations but that may be to much to ask, lets at least try to avoid making Syvita/project specific abbreviations.
 
 ### Elements (boxes)
 
