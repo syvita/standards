@@ -15,28 +15,25 @@ This is the org-wide repository that contains Syvita standards. These are standa
 
 Standards are named in the format `Syv-XX` where `XX` is the standard identifier. This identifier changes incrementally.
 
-## Release naming
+A standard is in `alpha` phase until it is finalised and `beta` phase until it's implemented in a Standard Release.
+
+### Release naming
+
+Standard Releases are groups of `Syv-XX` standards launched as versions.
+
+They follow the form `SyvR-vX` where `X` is the next available integer version.
+
+Example:
+
+`SyvR-v4` (Standard Release v4)
 
 ### Tags
 
-If the release is a pre-release (an alpha or beta), the tag will be the next available version number with the suffix of `alpha` or `beta`.
-
-A standard is in `alpha` until it is finalised and `beta` until it's implemented in an Syvita project.
-
-After the pre-release is implemented by a project, the pre-release becomes a recognised release without the suffix.
+Releases are released as `vX`s where `X` is the next available integer version.
 
 Example:
 
-Previous release was `v4`...
-`v5-alpha`, `v5-beta` and then `v5`.
-
-### Name
-
-A release's name is the abbreviation of the title, a forward-slash and the release tag.
-
-Example:
-
-`SyvR-v1` (Syvita standard Release v1)
+Previous release was `v4` so next will be `v5`.
 
 ## Implementing standards
 
@@ -44,12 +41,11 @@ When implementing deployed standards from this repo, you should state implementa
 
 If you're using a *release*, where you comply with every standard in said release, you should say something like this...
 
-> This project complies with [Syv-03/v2](https://github.com/labs3/standards/releases/tag/v2).
+> This project complies with [SyvR-v4](https://github.com/labs3/standards/releases/tag/v4).
 
-- Make it clear
-- The release name should be the abbreviation of the title, a forward-slash and the release tag.
-- Link the release name to the release link from this repo
-- You can put the release title in brackets after if wanted.
+* Make it clear
+* The release name should be the abbreviation of the title, a forward-slash and the release tag.
+* Link the release name to the release link from this repo
 
 If you're using *individual standards*, you should list them.
 
