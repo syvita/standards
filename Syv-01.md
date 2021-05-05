@@ -1,4 +1,4 @@
-# L3S-01 - Clarity Standards
+# Syv-01 - Clarity Standards
 
 ## Constants
 Constants have to be declared in all upper case with underscore separators. For example:

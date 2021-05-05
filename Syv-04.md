@@ -1,4 +1,4 @@
-# L3S-04 - Markdown
+# Syv-04 - Markdown
 
 This document contains a description of all rules, what they are checking for,
 as well as examples of documents that break the rule and corrected

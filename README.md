@@ -1,12 +1,12 @@
 # Standards
 
-This is the org-wide repository that contains the labs3 standards. These are standards mainly regarding code style for organisation projects. They are not enforced, only recommendended.
+This is the org-wide repository that contains Syvita standards. These are standards mainly regarding code style for Guild projects. They are not enforced, only recommendended.
 
 ## Current list of (potential) standards
 
-* L3S-01.md - Clarity coding standard
-* L3S-02.md - Architecture model standard
-* L3S-03.md - Unit testing standard
+* Syv-01.md - Clarity coding standard
+* Syv-02.md - Architecture model standard
+* Syv-03.md - Unit testing standard
 
 ## Naming
 
@@ -29,21 +29,13 @@ Example:
 Previous release was `v4`...
 `v5-alpha`, `v5-beta` and then `v5`.
 
-### Title
-
-The title of a release is usually a reference from one of Neal Stephenson's writings. This could be a city, a book title, a character etc. It's free for the author to choose. Just don't be rude, or it won't be implemented. They should be unique org-wide.
-
-Example:
-
-`A Young Lady's Illustrated Primer`
-
 ### Name
 
 A release's name is the abbreviation of the title, a forward-slash and the release tag.
 
 Example:
 
-`Syv-02/v1` (Standard Syv-02 version 1)
+`SyvR-v1` (Syvita standard Release v1)
 
 ## Implementing standards
 
