@@ -7,6 +7,7 @@ This is the org-wide repository that contains Syvita standards. These are standa
 * Syv-01.md - Clarity coding standard
 * Syv-02.md - Architecture model standard
 * Syv-03.md - Unit testing standard
+* Syv-04.md - Markdown standard
 
 ## Naming
 
